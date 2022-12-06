@@ -1,0 +1,39 @@
+#header1{
+
+            @media(max-width:768px){
+            
+            display:none;
+            }
+
+}
+body > main{
+    
+    @media(max-width:768px){
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+
+// main section:nth-child(1) h1{
+    
+//      @media(max-width:360px){
+//         padding-top:10%;
+//          }
+// }
+
+@media(max-width:768px){
+    
+    
+    #h1{
+        padding-top:10%;
+    }
+    #article{
+        position:absolute;
+        height:70%;
+        margin-left:25%;
+        min-width:200px;
+        padding-top:0vh;
+        margin-top:10vh;
+    }
+}
